@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Create a simple GET route
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Hello, Worlds!');
 });
 
 // Start the server and listen on the defined port
